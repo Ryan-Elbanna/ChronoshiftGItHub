@@ -1,0 +1,581 @@
+footer {
+    background-color: black;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.endofooter{
+  width: 100%;
+}
+
+.footerrow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerrow img{
+border-radius: 20px;
+}
+
+#footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.logoname {
+    font-size: 64px;
+    background: -webkit-linear-gradient(#00FF85, #9CBAF3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.logo {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4E4E4E;
+    padding: 10px;
+    flex-basis: 100%;
+}
+
+ul.nav {
+  position: sticky ;
+}
+
+/* Website Background */
+body {
+    background: linear-gradient(#EE7979, #9CBAF3);
+}
+
+/* The Navigation Styling */
+.nav{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#00FF85;
+    width: 100%;
+    height: 50px;
+}
+
+ul.nav :hover {
+    background-color:grey;
+}
+
+ul.nav li {
+    float:left;
+    border-right:2px solid black;
+    font-size:50px;
+}
+
+ul.nav li a{
+    color: black;
+    cursor:pointer;
+}
+
+/* The text used to overlap the hero image in index.html */
+.heros {
+    position: relative;
+}
+div.herotext {
+    position: absolute;
+    bottom: 70px;
+    left: 16px;
+    color:#00FF85;
+    font-size:50px;
+  }
+
+  div.herosubtext {
+    position: absolute;
+    bottom: 30px;
+    left: 16px;
+    color:#00FF85;
+    font-size:30px;
+  }
+
+  div.heros img {
+      border-radius: 20px;
+      margin-top: 30px;
+  }
+/* CSS used for hgero images in the pages other than the home page */
+  .nonrelatableheroimage {
+      position: relative;
+  }
+
+  div.nonrelatableheroimage img{
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+
+  div.herotext2 {
+    position: absolute;
+    bottom: 70px;
+    left: 16px;
+    color:#00FF85;
+    font-size:50px;
+  }
+
+/* The Featured Expeditions part of the page also is used for the expeditions on the Expeditions page */
+  .featuredsection {
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+      height:100px;
+      width: 100%;
+  }
+
+  .featuredtext {
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: black;
+      background-color: white;
+      width: 500px;
+      font-size: 48px;
+      border-radius: 10px;
+  }
+
+  .desc {
+    border: 2px solid black;
+    height:110px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    font-size: 25px;
+  }
+
+  .desc a{
+    color: #00FF85;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    float: right;
+  }
+
+  div.featexped img {
+      border-radius: 20px;
+      border: solid #00FF85;
+  }
+
+  /* Reviews section and a little about us, will contain the learn more button */
+  
+  .Indexaboutustitle{
+      text-align: center;
+      font-size: 32px;
+  }
+  .reviewsfortheusers {
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 1000px;
+    font-size: 48px;
+    border-radius: 10px;
+  }
+
+  #reviewsandabout {
+      display:flex;
+      justify-content: space-around;
+      align-content: center;
+  }
+
+  .reviews {
+      margin-top: 50px;
+      background: #C4C4C4;
+      height:400px;
+      width: 40%;
+      border-radius: 20px;
+      font-size: 25px;
+  }
+  .reviews p{
+    border-radius: 20px;
+    background-color: white;
+}
+
+  .bitaboutus{
+      margin-top: 50px;
+      background: #C4C4C4;
+      height: 400px;
+      width: 40%;
+      border-radius: 20px;
+  }
+
+  .littlebitaboutustext{
+      font-size: 32px;
+      text-align: left;
+      opacity: 1;
+  }
+
+  .learnmorebutton {
+    background-color: #00FF85;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      font-size: 48px;
+      width:900px;
+      height:100px;
+      color: black;
+      text-align: center;
+      font-size: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+      text-decoration: none;
+  }
+  
+  /* About Page CSS */
+  .aboutusrows {
+        width: 1700px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .aboutusrows p {
+      font-size: 36px;
+      background-color: #C4C4C4;
+      border-radius: 20px;
+    }
+
+    .aboutusrows h2 {
+      background-color: white;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 42px;
+    }
+
+    .aboutusrows article {
+      width: 40%;
+    }
+
+  section.aboutusrows img {
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+  }
+
+  #aboutpageheading {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 600px;
+    font-size: 48px;
+    border-radius: 10px;
+  }
+
+  .travelexperts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .travelexperts p {
+    background-color: white;
+    border: 2px solid black;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .travelexperts img {
+    border-radius: 20px;
+  }
+
+
+  /* Expeditions Page */
+  .expedsection{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.expedtext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 500px;
+    font-size: 48px;
+    border-radius: 10px;
+}
+  div.exped img {
+      border-radius: 20px;
+      border: solid #00FF85;
+  }
+
+  div.recomexped img {
+    border-radius: 20px;
+    border: solid #00FF85;
+}
+
+  .recom1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+  .recomimages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  }
+
+  .recommendedtravelstitle {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 500px;
+    font-size: 48px;
+    border-radius: 10px;
+  }
+
+  .recommendedtitle{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.recommendedreviews {
+    margin-top: 50px;
+    background: #C4C4C4;
+    height:400px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.recommendedreviews p{
+  background-color: white;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.recommendedabout{
+    margin-top: 50px;
+    background: #C4C4C4;
+    height: 200px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.recommendedtext{
+    font-size: 35px;
+    text-align: left;
+}
+
+.photosusertitle {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.photosbyusers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photosbyusers img {
+  border-radius: 20px;
+}
+
+
+  /* Policy/Rules */
+
+  .policyrows {
+    width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.policyrows p {
+  font-size: 30px;
+  background-color: #C4C4C4;
+  border-radius: 20px;
+}
+
+.policyrows h2 {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.policyrows article {
+  width: 40%;
+}
+
+section.policyrows img {
+width: 700px;
+height: 500px;
+border-radius: 20px;
+}
+
+  /* Registration/Booking Page */
+  
+  .bookingform {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    width:300px;
+    height:100px;
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .formflexcontainer {
+      font-size: 42px;
+      width: 48%;
+  }
+
+  .formflexcontainer2 {
+    margin-top: 50px;
+    font-size: 42px;
+    width: 48%;
+}
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 20px;
+  }
+
+  .travelrulesregulationstitle {
+      margin-top: 100px;
+      background-color: white;
+      font-size: 48px;
+      width:700px;
+      height:100px;
+      color: black;
+      text-align: center;
+      font-size: 48px;
+      border-radius: 20px;
+  }
+
+  .travelrulesregulationscont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: right;
+  }
+
+  .travelrulesregulationscont p{
+    background-color: #c4c4c4;
+    width: 700px;
+    height: 450px;
+    font-size: 42px;
+    border-radius: 20px;
+  }
+
+  .travelrulesregulationscont img {
+    border-radius: 20px;
+  }
+
+  .endbutton {
+    background-color: #00FF85;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 48px;
+    width:900px;
+    height:100px;
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ /* The End... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
